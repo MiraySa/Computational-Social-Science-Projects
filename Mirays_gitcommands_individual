@@ -1,0 +1,41 @@
+MSalman@LAPTOP-MSalman MINGW64 ~
+$ cd desktop
+
+MSalman@LAPTOP-MSalman MINGW64 ~/desktop
+$ cd my_css_projects
+
+MSalman@LAPTOP-MSalman MINGW64 ~/desktop/my_css_projects
+$ ls
+GitHub-Collaboration-Practice/  archive/
+
+MSalman@LAPTOP-MSalman MINGW64 ~/desktop/my_css_projects
+$ git clone https://github.com/MiraySa/my_css_repo_1.git
+Cloning into 'my_css_repo_1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+MSalman@LAPTOP-MSalman MINGW64 ~/desktop/my_css_projects
+$ ls
+GitHub-Collaboration-Practice/  archive/  my_css_repo_1/
+
+MSalman@LAPTOP-MSalman MINGW64 ~/desktop/my_css_projects
+$ cd my_css_repo_1
+
+MSalman@LAPTOP-MSalman MINGW64 ~/desktop/my_css_projects/my_css_repo_1 (main)
+$ ls
+README.md
+
+MSalman@LAPTOP-MSalman MINGW64 ~/desktop/my_css_projects/my_css_repo_1 (main)
+$ nano Mirays_gitcommands_individual
+
+NEXT STEPS
+$ git status
+$ git add Mirays_gitcommands_individual
+$ git status (<-- This is optional)
+$ git commit -m "Adding txt-file with my git commands"
+$ git push -u origin Mirays_branch 
+
+Done!
